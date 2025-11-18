@@ -3,7 +3,7 @@ from utils import draw_drainage
 from re_est import fill_re_average_neighbors,fill_re_from_distances,fill_re_weighted_average
 def main():
     # Load data
-    path = '/Users/rianrachmanto/pypro/project/drainage/data/Drainage Radius SJD_02.xlsx'
+    path = 'Your path to data file here.xlsx'
     data=pd.read_excel(path,skiprows=1)
     # for reservoir in data['Surface'].unique():
     #     draw_drainage(data[data['Surface'] == reservoir])
